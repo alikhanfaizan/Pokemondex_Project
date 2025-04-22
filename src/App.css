@@ -1,0 +1,14 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pokemon-heading{
+    padding-top: 20px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+}
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
