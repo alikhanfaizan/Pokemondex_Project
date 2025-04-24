@@ -2,8 +2,6 @@
     font-size: xx-large;
     color: black;
     margin-top: 1rem;
-    text-transform: capitalize;
-    letter-spacing: 0.5rem;
 }
 
 .pokemon-details-name > span {
@@ -12,10 +10,9 @@
 
 .pokemon-details-types {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
     gap: 3rem;
     font-size: larger;
-
 }
 
 .pokemon-details-types div {
@@ -26,12 +23,11 @@
 }
 
 .pokemon-details-image {
-    margin-top: 5rem;
-    max-height: 80%;
-    height: 200px;
+    margin-top: 2rem;
+    max-height: 200px;
 }
 
-.pokemon-info-wrapper {
+.pokemon-details-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
